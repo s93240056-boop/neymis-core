@@ -11,6 +11,7 @@ public final class Intents {
     public static final String CODEX = "com.neymis.codex";
     public static final String FILES = "com.neymis.files";
     public static final String TAIL = "com.neymis.tail";
+    public static final String HUB = "com.neymis.hub";
 
     private Intents() {
     }
@@ -25,6 +26,11 @@ public final class Intents {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    /** Открыть Neymis Hub — витрину приложений и обновлений. */
+    public static boolean openHub(Context context) {
+        return openApp(context, HUB);
     }
 
     public static void openWeb(Context context, String url) {

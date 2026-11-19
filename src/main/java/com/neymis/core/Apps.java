@@ -4,18 +4,19 @@ package com.neymis.core;
 public final class Apps {
 
     public static final String[] NAMES = {
-            "Neymis Files", "Neymis Tail", "Neymis Codex", "Neymis Web"
+            "Neymis Files", "Neymis Tail", "Neymis Codex", "Neymis Web", "Neymis Hub"
     };
 
     public static final String[] PACKAGES = {
-            Intents.FILES, Intents.TAIL, Intents.CODEX, Intents.WEB
+            Intents.FILES, Intents.TAIL, Intents.CODEX, Intents.WEB, Intents.HUB
     };
 
     public static final String[] REPOS = {
             "https://github.com/s93240056-boop/neymis-files",
             "https://github.com/s93240056-boop/neymis-tail",
             "https://github.com/s93240056-boop/neymis-codex",
-            "https://github.com/s93240056-boop/neymis-web"
+            "https://github.com/s93240056-boop/neymis-web",
+            "https://github.com/s93240056-boop/neymis-hub"
     };
 
     private Apps() {
